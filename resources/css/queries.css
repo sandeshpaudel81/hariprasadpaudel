@@ -1,0 +1,95 @@
+/*Big tablet to pcs': 1024 to 1200px*/
+@media only screen and (max-width:1200px){
+    .title-box {
+    width: 100%;
+    padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+}
+
+
+/* Small phones: 768 to 1023px */
+@media only screen and (max-width:1023px){
+    body{ font-size: 18px; }
+    section { padding: 30px 0; margin: 30px 0; }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%; }
+    .abt_photo img {
+        width: 150px;
+        margin-top: 30px;}
+    .family img {width: 150px;}
+    .socialmedia li a {
+        font-size: 100%;
+        padding: 4px;}
+    .main-nav { display: none; }
+    .nav-icon { display: inline-block; }
+    .main-nav { float:left; margin-top: 18px; }
+    .main-nav li { display: block;   }
+    .main-nav li a:link,
+    .main-nav li a:visited { display: block; border: 0; padding: 2px 0; font-size: 100%; }
+    .main-nav li a:hover,
+    .main-nav li a:active { color: #3498db; }
+    .logo { width: 110px; height: auto;}
+    .sticky .main-nav { margin-top: 10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+    padding: 4px 0;
+    color: #555;}
+    .sticky .nav-icon i { color: #555; }
+    .sticky .logo { display: none;}
+    .sticky .logo1 { display: block; }
+
+
+}
+
+
+
+
+
+/*Small tablets: 481 to 767px */
+@media only screen and (max-width:767px){
+    body { font-size: 16px; padding: 30px 0; }
+    .row,
+    .title-box { padding: 0 4%; }
+    .col { width: 100%; }
+    .section-footer .col span-1-of-2 { margin-bottom: 20px; }
+    .main-nav { display: none; }
+    .nav-icon { display: inline-block; }
+    .main-nav { float:left; margin-top: 18px; }
+    .main-nav li { display: block;   }
+    .main-nav li a:link,
+    .main-nav li a:visited { display: block; border: 0; padding: 2px 0; font-size: 100%; }
+    .main-nav li a:hover,
+    .main-nav li a:active { color: #3498db; }
+    .logo { width: 110px; height: auto;}
+    .sticky .main-nav { margin-top: 10px;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+    padding: 4px 0;
+    color: #555;}
+    .sticky .nav-icon i { color: #555; }
+    .sticky .logo { display: none;}
+    .sticky .logo1 { display: block; }
+    
+    
+    
+    h1 {font-size: 300%;}
+    h2 {font-size: 150%;}
+    .logo { width: 100px; height: auto;}
+    .btn:link,
+    .btn:visited,
+    input[type=submit]{padding: 8px 20px; font-weight: 250; }
+    .family img { width: 150px; margin-bottom: 25px; }
+}
+
+
+
+
+/* Small phones: 0 to 480px */
+@media only screen and (max-width:480px){
+    section { padding: 25px 0;}
+    .contact-form { width: 100%; }
+}
