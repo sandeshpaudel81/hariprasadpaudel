@@ -1,3 +1,4 @@
+
 /*-------------------------------*/
 /*Basic setup for the document*/
 /*------------------------------------------------------*/
@@ -12,16 +13,11 @@ html,
 body {
     background-color: #fff;
     color:#555;
-    font-family: 'Lato','Arial','sans-serif';
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-}
-
-@font-face {
-    font-family: "arap" ;
-    src: url("vendors\fonts\arap.ttf") format("truetype");
 }
 
 /*-------------------------------*/
@@ -51,7 +47,6 @@ h3 {
     font-size: 350%;
     font-weight: 1000;
     letter-spacing: 3px;
-    
 }
 
 h1 {
@@ -144,7 +139,7 @@ header {
     background-image: linear-gradient(rgba(60, 66, 105, 0.28),rgba(0, 0, 0, 0.4)), url(img/baba.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 100vh;
 }
 
@@ -269,6 +264,7 @@ header {
 .section-aboutme {
     background-color: #f4f4f4;
     background-attachment: fixed;
+    
 }
 
 .abt_photo {
@@ -295,8 +291,9 @@ header {
 .abt_text {
     margin-top: 25px;
     font-size: 250%;
-    font-family: preeti;
+    font-family: 'Noto Sans', sans-serif;
 }
+
 
 /*-------SECTION-ABOUT-ME-FAMILY---------*/
 

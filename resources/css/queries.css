@@ -83,6 +83,11 @@
     .btn:visited,
     input[type=submit]{padding: 8px 20px; font-weight: 250; }
     .family img { width: 150px; margin-bottom: 25px; }
+    header {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 80% 50%;
+    height: 100vh; }
 }
 
 
