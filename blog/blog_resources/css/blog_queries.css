@@ -1,0 +1,35 @@
+/*Big tablet to pcs': 1024 to 1200px*/
+@media only screen and (max-width:1200px){
+    .row { padding: 0 2%; }
+    header { padding: 2% 0; }
+}
+
+/* Small phones: 768 to 1023px */
+@media only screen and (max-width:1023px){
+    html,
+    body { font-weight: 250; font-size: 18px; }
+    .aboutme { width: 125px; text-align: right; }
+    .logo { width: 125px; }
+    .article { padding-bottom: 60px; }
+    .box { padding-right: 4px;}
+}
+
+/*Small tablets: 481 to 767px */
+@media only screen and (max-width:767px){
+    html,
+    body { font-weight: 250; font-size: 17px; }
+    .blogheader { width: 250px; }
+    .col { width: 100%; }
+    .about { text-align: center; }
+    .socialmedia { text-align: center;}
+    h2:after { margin-bottom: 15px; }
+}
+
+/* Small phones: 0 to 480px */
+@media only screen and (max-width:480px){
+    html,
+    body { font-weight: 250; font-size: 16px; }
+    .blogheader { width: 225px; margin-top: 20px; }
+    .article:after { width:200px; }
+    .gotohomepage { padding: 3px; font-size: 100%; }
+}
